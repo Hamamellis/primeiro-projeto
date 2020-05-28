@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 @Component({ 
     selector: 'meu-primeiro-component',
     template: ` 
-    <p>  primeiro component com Angular 8 </p> 
+    <h2>Vejam o nosso primeiro Component com Angular 8 </h2> 
     `
  })
-class MeuPrimeiroComponent { }
+
+export class MeuPrimeiroComponent { }
