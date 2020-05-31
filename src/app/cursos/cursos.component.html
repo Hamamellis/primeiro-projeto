@@ -1,4 +1,23 @@
-<p>cursos Component!</p>
+<p>
+    Lista de Cursos do Portal {{ nomePortal }}
+</p>
 
 <app-curso-detalhe></app-curso-detalhe>
+
+<ul>
+    <li>Java</li>
+    <li>Oracle</li>
+    <li>.Net</li>
+    <li>Unit</li>
+</ul>
+
+<ol>
+    <li *ngFor="let curso of cursos">
+        {{ curso }}
+    </li>
+</ol>
+
+<li *ngFor="let item of list"></li>
+
+
 
